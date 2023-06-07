@@ -23,14 +23,29 @@
 
 body {
   font-family: 'Bebas Neue', cursive;
-  /* font-family: 'Esteban', serif;
-  font-family: 'Fredoka', sans-serif; */
-  margin: 5px;
+  font-family: 'Esteban', serif;
+  font-family: 'Fredoka', sans-serif;
+  margin: 20px
 }
 img {
-  
+  border-radius: 20px;
 }
-
+ul {
+  list-style: none;
+}
+a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+th, td {
+  border: solid 3px black;
+  padding: 20px;
+}
+input {
+  padding: 5px;
+}
 
 /******************************************
 /* LAYOUT
@@ -38,7 +53,35 @@ img {
 header {
 
 }
+main p {
+  width: 510px;
+  justify-content: left;
+  padding: 30px;
+}
+.profesh-links ul{
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: baseline;
+}
+a {
+  margin: 0px 5px;
+}
+.work {
 
+}
+.form {
+  display: block;
+}
+form div {
+
+}
+.form-name, .form-email, .form-message {
+  display: block;
+  padding: 8px;
+}
+#message-label {
+  display: block;
+}
 footer {
 
 }

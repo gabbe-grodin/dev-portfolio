@@ -27,7 +27,7 @@
 		<img src="assets/logos/ai-prompt-of-hand-drawn-illustration-vintage-1960s-logo-clip-art-computers-01.png" alt="AI generated image with prompt of hand-drawn vintage illustration computer" height="200">
 		<main>
 			<h1>Gabbe Grodin</h1>
-			<ul>
+			<ul class="my-titles">
 				<li>Web Developer</li>
 				<li>Graphic Designer</li>
 				<li>Illustrator</li>
@@ -35,7 +35,7 @@
 			</ul>
 			<p>Through training programs like Coding Dojo and the Agency, 100 Devs Academy, I have stacked/balanced my Masters and Bachelors degrees in Fine Art, plus two decades of working in arts education and administration experience, with a tech cherry on top.</p>
 		</main>
-		<div>
+		<div class="profesh-links">
 			<ul>
 				<li>
 					<a href="https://www.linkedin.com/in/gabbegrodin/">
@@ -57,9 +57,9 @@
 				</li>
 			</ul>
 		</div>
-		<section>
+		<section class="technologies">
 			<h2>Technologies</h2>
-			<table border="1">
+			<table>
 				<tr>
 					<th>Front-End</th>
 					<th>Python</th>
@@ -101,7 +101,7 @@
 				<li>Python</li>
 			</ul>
 		</section> -->
-		<section>
+		<section class="work">
 			<h2>Work</h2>
 			<ul>
 				<li>
@@ -121,20 +121,26 @@
 				</li>
 			</ul>
 		</section>	
-		<form action="" method="get">
+		<section class="form">
+			<form action="" method="get">
 			<h2>Contact Me</h2>
 			<div>
-				<label for="name">Name: </label>
-				<input type="text" name="visitor-name" placeholder="your name" id="visitor-name">
-				<label for="email">Email: </label>
-				<input type="email" name="email" id="email" placeholder="your email">
+				<span class="form-name">
+					<label for="name">Name: </label>
+					<input type="text" name="visitor-name" placeholder="your name" id="visitor-name">
+				</span>
+				<span class="form-email">
+					<label for="email">Email: </label>
+					<input type="email" name="email" id="email" placeholder="your email">
+				</span>
 			</div>
-			<div>
-				<label for="message">Message: </label>
+			<div class="form-message">
+				<label for="message" id="message-label">Message: </label>
 				<textarea name="send-me-a-message" id="send-message" cols="30" rows="10" placeholder="Start typing here..."></textarea>
 			</div>
 			<input type="submit" value="Send Message">
 		</form>
+		</section>
 		
 		
 		<script type="text/javascript" src="js/main.js"></script>
