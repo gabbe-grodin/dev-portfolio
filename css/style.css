@@ -30,8 +30,13 @@ body {
 img {
   border-radius: 20px;
 }
+h2 {
+  padding: 20px 0 10px 0;
+}
 ul {
   list-style: none;
+  padding-left: 0;
+
 }
 a {
   color: black;
@@ -39,9 +44,15 @@ a {
   text-decoration: none;
   vertical-align: middle;
 }
+td {
+  border-right: solid 3px black;
+  border-top: solid 3px black;
+}
+th {
+  border-right: solid 3px black;
+}
 th, td {
-  border: solid 3px black;
-  padding: 20px;
+  padding: 15px;
 }
 input {
   padding: 5px;
@@ -53,10 +64,15 @@ input {
 header {
 
 }
+.title-bio-block {
+  display: flex;
+  vertical-align: top;
+  justify-content: space-between;
+  width: 550px;
+}
 main p {
-  width: 510px;
-  justify-content: left;
-  padding: 30px;
+  justify-content: right;
+  padding-left: 30px;
 }
 .profesh-links ul{
   display: flex;
@@ -81,9 +97,13 @@ form div {
 }
 #message-label {
   display: block;
+  padding-bottom: 8px;
+}
+#send-me-a-message > input {
+  display: block;
 }
 footer {
-
+  color: rgb(137, 125, 125);
 }
 
 /******************************************
