@@ -5,12 +5,12 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -25,7 +25,8 @@ body {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Esteban', serif;
   font-family: 'Fredoka', sans-serif;
-  margin: 20px
+  margin: 20px;
+  background-color: black
 }
 img {
   border-radius: 20px;
@@ -64,20 +65,29 @@ input {
 header {
 
 }
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 25px;
+}
+
 .title-bio-block {
   display: flex;
   vertical-align: top;
   justify-content: space-between;
-  width: 550px;
+  width: 355px;
 }
 main p {
   justify-content: right;
   padding-left: 30px;
 }
-.profesh-links ul{
+.profesh-links {
+  width: inherit;
+  height: 100px;
   display: flex;
-  justify-content: flex-start;
-  vertical-align: baseline;
 }
 a {
   margin: 0px 5px;
